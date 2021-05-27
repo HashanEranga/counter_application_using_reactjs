@@ -5,6 +5,7 @@ function Counter() {
 
     return (
        <div className="container">
+           <h1>Counter Value</h1>
            <h1>{count}</h1>
            <button className="btn" type='button' onClick={()=>setCount(count + 1)}>
                 Increase Value
